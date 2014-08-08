@@ -1,0 +1,23 @@
+---
+basic_packages:
+  - build-essential
+  - lv
+  - screen
+  - vim
+  - sysstat
+  - iotop
+  - tcpdump
+  - curl
+  - ethtool
+  - htop
+  - strace
+  - ltrace
+  - iftop
+  - iputils-arping
+  - ncftp
+  - tcptraceroute
+  - rsync
+  - dstat
+  - nmap
+  - ntp
+  - ntpdate
