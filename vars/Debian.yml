@@ -21,3 +21,5 @@ basic_packages:
   - nmap
   - ntp
   - ntpdate
+  - git
+  - subversion
