@@ -3,6 +3,6 @@
   include_vars: "{{ ansible_os_family }}.yml"
 
 - name: Install the basic operation and monitoring tools
-  apt: name={{ item }} state=present
+  apt: name={{ item }} state=present update_cache=yes
   with_items: basic_packages
   when: ansible_os_family == 'Debian'
